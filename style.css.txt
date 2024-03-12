@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgba(220, 243, 235, 0.822);
+}
+    
+
+.Cadastro, form{
+    display: block;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center ;
+        
+}
+form{
+    width: 100%;
+  
+}
+.Cadastro { 
+    border: 1px solid black;
+    border-radius: 10px;
+    width: auto;
+    height: 500px;
+    margin: 10% 35%;
+
+}
+input{
+    width: 80%;
+    padding: 15px;
+    border: 0.5px solid black;
+    border-radius: 5px;
+    margin: 5px 0;
+    
+}
+button{
+    margin-top: 5px;
+    justify-content: left;
+    align-items: left;
+    text-align: left;
+    border-radius: 5px;
+    padding: 10px 20px;
+    border: 1px solid rgb(19, 113, 214);
+    background-color: rgb(19, 113, 214);
+    color: white;
+
+}
+
+:root{
+    --text-color: white;
+    --stroke-color: rgba(255, 255, 255, 0.50);
+    --surface-color: rgba(225, 255, 255,  0.05);
+    --surface-color-hover: rgba(0, 0, 0,  0.02);
+    --highlight-color: rgba(225, 225, 255, 0.2);
+    
+}
